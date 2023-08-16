@@ -1,0 +1,10 @@
+{
+    "rust_phantom_style": "none",
+    "rust_syntax_checking": true,
+    "rust_syntax_checking_include_tests": true,
+    "rust_syntax_checking_method": "clippy",
+    "rust_region_style": "stippled_underline",
+    "rust_gutter_style": "circle",
+    "show_panel_on_build": false,
+}
+

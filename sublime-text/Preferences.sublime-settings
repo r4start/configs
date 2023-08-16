@@ -1,0 +1,22 @@
+{
+    "tab_size": 4,
+    "font_face": "Monaco",
+    "font_size": 13,
+    "rulers": [80, 100, 120],
+    "word_wrap": true,
+    "wrap_width": 120,
+    "translate_tabs_to_spaces": true,
+    "highlight_line": true,
+    "scroll_past_end": true,
+    "default_line_ending": "unix",
+    "show_tab_close_buttons_on_left": true,
+    "show_encoding": true,
+    "show_line_endings": true,
+    "ignored_packages":
+    [
+        "Rust",
+        "Vintage",
+    ],
+    "theme": "One.sublime-theme",
+    "color_scheme": "One Dark.sublime-color-scheme",
+}
