@@ -1,0 +1,9 @@
+import = [
+    "~/.config/alacritty/themes/themes/iterm.toml"
+]
+
+[font]
+normal = { family = "FiraCode Nerd Font Mono" }
+size = 13
+[scrolling]
+history = 100000
