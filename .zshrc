@@ -7,12 +7,13 @@ export ZSH=$HOME/.oh-my-zsh
 # time that oh-my-zsh is loaded.
 ZSH_THEME="bureau"
 
-plugins=(git sublime)
+HIST_STAMPS="yyyy-mm-dd"
+
+plugins=(git sublime brew kubectl helm terraform)
 
 # User configuration
 
 source $ZSH/oh-my-zsh.sh
-#source /usr/share/zsh/plugins/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
 
 # You may need to manually set your language environment
 export LANG=en_US.UTF-8
@@ -24,18 +25,6 @@ export EDITOR=nvim
 # Compilation flags
 # export ARCHFLAGS="-arch x86_64"
 
-# ssh
-# export SSH_KEY_PATH="~/.ssh/dsa_id"
-
-# Set personal aliases, overriding those provided by oh-my-zsh libs,
-# plugins, and themes. Aliases can be placed here, though oh-my-zsh
-# users are encouraged to define aliases within the ZSH_CUSTOM folder.
-# For a full list of active aliases, run `alias`.
-#
-# Example aliases
-# alias zshconfig="mate ~/.zshrc"
-# alias ohmyzsh="mate ~/.oh-my-zsh"
-
 alias ls="ls --color=auto"
 alias hexstr='noglob dump_hex_str'
 dump_hex_str() {
@@ -45,6 +34,8 @@ dump_hex_str() {
 alias nbat="bat --paging=never"
 alias cat="bat --style=plain --paging=never"
 alias python=python3
+alias cls=clear
+alias nv=nvim
 
 # Rust env.
 export PATH="$HOME/.cargo/bin:$PATH"
