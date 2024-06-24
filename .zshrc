@@ -9,7 +9,7 @@ ZSH_THEME="bureau"
 
 HIST_STAMPS="yyyy-mm-dd"
 
-plugins=(git sublime brew kubectl helm terraform)
+plugins=(git sublime brew kubectl helm terraform golang docker python minikube)
 
 # User configuration
 
@@ -25,7 +25,7 @@ export EDITOR=nvim
 # Compilation flags
 # export ARCHFLAGS="-arch x86_64"
 
-alias ls="ls --color=auto"
+alias ls="eza"
 alias hexstr='noglob dump_hex_str'
 dump_hex_str() {
   hexdump -ve '1/1 "%.2x"' $*

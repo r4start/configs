@@ -14,6 +14,8 @@ fi
 
 # Copy zshrc
 
+# Add zsh-syntax-highlighting in zshrc
+
 # Copy tmux conf
 
 # Install FiraCode fonts: Nerd + Nerd Mono

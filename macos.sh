@@ -10,7 +10,7 @@ brew upgrade
 brew install bat bottom dust eza go gopls grpcurl jq mosh neovim \
              openvpn protobuf qemu ripgrep rust-analyzer rustup-init \
              tig tmux k9s yq virtctl terraform kind goose python poetry \
-             helm
+             helm zsh-syntax-highlighting
 brew install qbittorrent orbstack rectangle stats utm vlc logseq macfuse sublime-text
 brew install --cask alacritty --no-quarantine
 
