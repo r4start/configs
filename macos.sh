@@ -12,6 +12,8 @@ brew install bat bottom dust eza go gopls grpcurl jq mosh neovim \
              tig tmux k9s yq virtctl terraform kind goose python poetry \
              helm zsh-syntax-highlighting
 brew install qbittorrent orbstack rectangle stats utm vlc logseq macfuse sublime-text
+
 brew install --cask alacritty --no-quarantine
+brew install --cask hiddenbar --no-quarantine
 
 brew cleanup
