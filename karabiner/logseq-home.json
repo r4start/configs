@@ -1,0 +1,23 @@
+{
+    "description": "Map Home to Cmd + Left Arrow in Logseq",
+    "manipulators": [
+        {
+            "conditions": [
+                {
+                    "bundle_identifiers": [
+                        "^com\\.electron\\.logseq$"
+                    ],
+                    "type": "frontmost_application_if"
+                }
+            ],
+            "from": { "key_code": "home" },
+            "to": [
+                {
+                    "key_code": "left_arrow",
+                    "modifiers": ["left_command"]
+                }
+            ],
+            "type": "basic"
+        }
+    ]
+}
