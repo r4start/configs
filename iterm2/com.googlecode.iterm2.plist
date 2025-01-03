@@ -96137,6 +96137,8 @@
 	</dict>
 	<key>Default Bookmark Guid</key>
 	<string>1D9381B7-94A5-4AA3-8F22-0B835A16C1DC</string>
+	<key>DisableWindowSizeSnap</key>
+	<true/>
 	<key>HapticFeedbackForEsc</key>
 	<false/>
 	<key>HideScrollbar</key>
