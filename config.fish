@@ -26,5 +26,7 @@ alias gf="git fetch"
 alias gp="git push"
 alias gd="git diff"
 alias gl="git pull"
+alias ga="git add"
+alias g="git"
 
 set -g fish_greeting
