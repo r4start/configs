@@ -12,6 +12,7 @@ alias cls=clear
 # Kubernetes shorthands
 alias k=kubectl
 alias mk=minikube
+alias k9sr="k9s --readonly"
 
 alias nv=nvim
 alias yy=paru
