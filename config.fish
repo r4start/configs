@@ -30,4 +30,16 @@ alias gl="git pull"
 alias ga="git add"
 alias g="git"
 
+# Terraform
+alias tf="terraform"
+alias tfa="terraform apply"
+alias tfp="terraform plan"
+alias tfi="terraform init"
+
+# Brew
+alias bu="brew update"
+alias bup="brew upgrade"
+alias bubo="brew update && brew outdated"
+alias bubu="bubo && bup"
+
 set -g fish_greeting
