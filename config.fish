@@ -2,12 +2,11 @@ fzf --fish | source
 
 export EDITOR=nvim
 
-# Rust env
-export PATH="$HOME/.cargo/bin:$PATH"
-
 alias nbat="bat --paging=never"
 alias cat="bat --style=plain --paging=never"
 alias cls=clear
+alias python=python3
+alias unset="set -e"
 
 # Kubernetes shorthands
 alias k=kubectl
@@ -43,3 +42,31 @@ alias bubo="brew update && brew outdated"
 alias bubu="bubo && bup"
 
 set -g fish_greeting
+
+# Rust env
+export PATH="$HOME/.cargo/bin:$PATH"
+
+# Go env.
+export GOPATH="$HOME/Projects/go"
+export GOMAXPROCS="16"
+export PATH="$GOROOT/bin:$GOPATH/bin:$PATH"
+
+if test (uname) = "Darwin"
+    export PATH="/opt/homebrew/bin:/opt/homebrew/sbin:$PATH"
+    # GNU utils
+    # Add Homebrew's GNU core utilities to the PATH
+    export PATH="$(brew --prefix coreutils)/libexec/gnubin:$PATH"
+
+    # Add the individual GNU utilities to the PATH
+    export PATH="$(brew --prefix findutils)/libexec/gnubin:$PATH"
+    export PATH="$(brew --prefix gnu-sed)/libexec/gnubin:$PATH"
+    export PATH="$(brew --prefix gawk)/bin:$PATH"
+    export PATH="$(brew --prefix gnu-which)/libexec/gnubin:$PATH"
+    export PATH="$(brew --prefix grep)/libexec/gnubin:$PATH"
+    export PATH="$(brew --prefix gnutls)/bin:$PATH"
+    export PATH="$(brew --prefix gnu-indent)/libexec/gnubin:$PATH"
+    export PATH="$(brew --prefix gnu-getopt)/bin:$PATH"
+    export PATH="$(brew --prefix gnu-time)/libexec/gnubin:$PATH"
+    export PATH="$(brew --prefix make)/libexec/gnubin:$PATH"
+    export PATH="$(brew --prefix bash)/bin:$PATH"
+end
