@@ -1,5 +1,3 @@
-fzf --fish | source
-
 export EDITOR=nvim
 
 alias nbat="bat --paging=never"
@@ -70,3 +68,5 @@ if test (uname) = "Darwin"
     export PATH="$(brew --prefix make)/libexec/gnubin:$PATH"
     export PATH="$(brew --prefix bash)/bin:$PATH"
 end
+
+fzf --fish | source
