@@ -67,6 +67,8 @@ if test (uname) = "Darwin"
     export PATH="$(brew --prefix gnu-time)/libexec/gnubin:$PATH"
     export PATH="$(brew --prefix make)/libexec/gnubin:$PATH"
     export PATH="$(brew --prefix bash)/bin:$PATH"
+else
+    export PATH="/home/linuxbrew/.linuxbrew/bin:/home/linuxbrew/.linuxbrew/sbin:$PATH"
 end
 
 fzf --fish | source

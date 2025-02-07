@@ -7,7 +7,7 @@ fi
 brew update
 brew upgrade
 
-brew install bat bottom dust eza fzf go gopls grpcurl jq mosh neovim \
+brew install bat bottom dust eza fish fzf go gopls grpcurl jq mosh neovim \
              openvpn protobuf ripgrep rust-analyzer rustup-init \
              tig tmux k9s yq virtctl terraform kind goose python poetry \
              helm yazi
