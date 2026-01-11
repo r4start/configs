@@ -14,7 +14,6 @@ brew install bat bottom dust eza fish fzf go gopls grpcurl jq mosh neovim \
 brew install qbittorrent orbstack rectangle stats utm vlc logseq macfuse sublime-text
 
 brew install --cask alacritty --no-quarantine
-brew install chromium --no-quarantine
 brew install --cask hiddenbar --no-quarantine
 
 brew cleanup
