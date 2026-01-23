@@ -69,6 +69,8 @@ if test (uname) = "Darwin"
     export PATH="$(brew --prefix gnu-time)/libexec/gnubin:$PATH"
     export PATH="$(brew --prefix make)/libexec/gnubin:$PATH"
     export PATH="$(brew --prefix bash)/bin:$PATH"
+
+    alias subl="/Applications/Sublime\ Text.app/Contents/SharedSupport/bin/subl"
 else if command -v lsb_release >/dev/null; and test (lsb_release -is) = "Ubuntu"
     export PATH="/home/linuxbrew/.linuxbrew/bin:/home/linuxbrew/.linuxbrew/sbin:$PATH"
 end
