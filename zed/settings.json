@@ -1,0 +1,42 @@
+// Zed settings
+//
+// For information on how to configure Zed, see the Zed
+// documentation: https://zed.dev/docs/configuring-zed
+//
+// To see all of Zed's default settings without changing your
+// custom settings, run `zed: open default settings` from the
+// command palette (cmd-shift-p / ctrl-shift-p)
+{
+  "preview_tabs": {
+    "enable_preview_file_from_code_navigation": false,
+    "enable_preview_from_multibuffer": false,
+    "enable_preview_from_project_panel": false,
+    "enabled": false
+  },
+  "colorize_brackets": true,
+  "soft_wrap": "editor_width",
+  "git": {
+    "inline_blame": {
+      "enabled": false
+    }
+  },
+  "cli_default_open_behavior": "new_window",
+  "telemetry": {
+    "diagnostics": false,
+    "metrics": false,
+    "anthropic_retention": false
+  },
+  "tabs": {
+    "close_position": "left"
+  },
+  "ui_font_size": 15,
+  "buffer_font_size": 15,
+  "theme": {
+    "mode": "light",
+    "light": "VSCode Light+",
+    "dark": "One Dark",
+  },
+  "scroll_beyond_last_line": "one_page",
+  "wrap_guides": [80, 100, 120]
+}
+
